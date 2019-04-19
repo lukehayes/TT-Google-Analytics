@@ -1,10 +1,10 @@
 <?php 
 /**
- * Plugin Name: Themetacular About Me
- * Plugin URI: http://themetacular.com
- * Description: A simple plugin that can output information about yourself with a shortcode
+ * Plugin Name: Themetacular Google Analytics 
+ * Plugin URI: http://themetacular.com/plugins/tt-google-analytics
+ * Description: A simple plugin to easily add Google analytics to your theme. 
  * Version: 0.1
- * Author: Luke Hayes
+ * Author: Themetacular
  * Author URI: http://themetacular.com
  * License: GPL2
  */
