@@ -17,5 +17,5 @@ if ( !function_exists('tt_about_me_styles' ) ) {
         wp_enqueue_style('themetacular_about_me_admin_css');
     }
 
-    add_action('admin_head', 'tt_about_me_styles');
+    // add_action('admin_head', 'tt_about_me_styles');
 }
