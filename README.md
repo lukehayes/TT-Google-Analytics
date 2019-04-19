@@ -1,3 +1,3 @@
-## Themetacular - About Me.
+## Themetacular - Google Analytics
 
-This is a simple Wordpress plugin for displaying information about yourself on your Wordpress site.
+A simple plugin for Themetacular Wordpress themes to easily add Google Analytics to your website.
