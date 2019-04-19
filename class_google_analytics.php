@@ -11,8 +11,8 @@ if ( ! class_exists("TT_Google_Analytics")) {
 	class TT_Google_Analytics {
 		
 		public function __construct() {
-			add_action('wp_footer', array($this, 'addSettingsPage') )
-			add_action('admin_init', array($this, 'addSettingsPage') )
+			add_action('wp_footer', array($this, 'addFooter') );
+			add_action('admin_init', array($this, 'addSettingsPage') );
 		}
 
 		/**
