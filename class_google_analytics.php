@@ -14,3 +14,5 @@ if ( ! class_exists("TT_Google_Analytics")) {
 		}
 	}
 }
+
+add_action("admin_head", new TT_Google_Analytics() );
