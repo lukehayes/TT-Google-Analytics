@@ -22,6 +22,7 @@ define('TT_AM_STYLES_DIR', TT_AM_ASSETS_DIR . '/styles');
 
 
 //-- File Includes
+include_once TT_AM_PLUGIN_PATH . '/class_google_analytics.php';
 
 // Include plugin css styles
 include_once TT_AM_PLUGIN_PATH . '/tt_styles.php';
