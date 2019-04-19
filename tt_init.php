@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Themetacular Google Analytics 
  * Plugin URI: http://themetacular.com/plugins/tt-google-analytics
- * Description: A simple plugin to easily add Google analytics to your theme. 
+ * Description: A simple plugin to easily add Google Analytics to your theme. 
  * Version: 0.1
  * Author: Themetacular
  * Author URI: http://themetacular.com
