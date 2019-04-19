@@ -7,11 +7,11 @@
 *
 */
 
-if ( !function_exists('tt_about_me_styles' ) ) {
+if ( !function_exists('tt_google_analytics_styles' ) ) {
     
     function tt_about_me_styles() {
 
-        $tt_admin_css = plugins_url('assets/styles/tt_about_me_admin.css', __FILE__);
+        $tt_admin_css = plugins_url('assets/styles/tt_google_analytics_admin.css', __FILE__);
 
         wp_register_style('themetacular_about_me_admin_css', $tt_admin_css, '' , '' ,  '' );
         wp_enqueue_style('themetacular_about_me_admin_css');

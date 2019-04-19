@@ -15,11 +15,6 @@
 require_once plugin_dir_path( __FILE__ ). '/tt_settings.php';
 
 /**
- * Include the plugin file
- */
-include_once TT_AM_PLUGIN_PATH . '/tt_about_me.php';
-
-/**
  * Include plugin css styles
  */
 include_once TT_AM_PLUGIN_PATH . '/tt_styles.php';
