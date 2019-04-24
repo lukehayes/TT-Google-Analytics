@@ -1,34 +1,16 @@
-<?php 
+<?php
 /**
  * Themetacular Google Analytics
  */
 
-if ( ! class_exists("TT_Google_Analytics")) {
-
-	/**
-	 * Google Analytics
-	 */
-	class TT_Google_Analytics {
-		
-		public function __construct() {
-			add_action('wp_footer', array( $this, 'addFooter') );
-			add_action('admin_init', array( $this, 'addSettingsPage') );
-		}
-
-		/**
-		 * Add the code to the footer of a theme
-		 */
-		public function addFooter() {
-			// TODO
-		}
-
-		/**
-		 * Create the plugin settings page
-		 */
-		public function addSettingsPage() {
-			// TODO
-		}
-	}
+// Load the google analytics code into the footer of the theme
+function tt_load_google_analytics_footer() {
+	// TODO
 }
+add_action('wp_footer', 'tt_load_google_analytics_footer');
 
-add_action("admin_head", new TT_Google_Analytics() );
+// Crate a settings page for the plugin
+function tt_create_settings_page() {
+	// TODO
+}
+add_action('admin_menu', 'tt_create_settings_page');
