@@ -14,9 +14,11 @@ add_action('admin_menu', 'tt_register_menu_page');
 function tt_create_settings_page() {
     ?>
     <div class="wrap">
-        <p>Hello</p>
+        <h1>Themetacular Google Analytics</h1>
+            <?php submit_button(); ?>
+        </form>
     </div>
-    <?php
+<?php
 }
 
 // Load the google analytics code into the footer of the theme
