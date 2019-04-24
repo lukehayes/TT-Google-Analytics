@@ -24,7 +24,7 @@ define('TT_GA_STYLES_DIR', TT_GA_ASSETS_DIR . '/styles');
 
 
 //-- File Includes
-include_once TT_GA_INC_PATH . '/class_google_analytics.php';
+include_once TT_GA_INC_PATH . '/class-tt-google-analytics.php';
 
 // Include plugin css styles
-include_once TT_GA_INC_PATH . '/tt_styles.php';
+include_once TT_GA_INC_PATH . '/tt-styles.php';
