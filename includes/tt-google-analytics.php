@@ -16,6 +16,9 @@ function tt_create_settings_page() {
     <div class="wrap">
         <h1>Themetacular Google Analytics</h1>
         <form method="post" action="options.php">
+            <h4>Enter your Google Analytics code into the input box below and then hit save!</h4>
+            <label>Google Analytics Code: </label>
+            <input type="text" name="tt-google-analytics-code">
             <?php submit_button(); ?>
         </form>
     </div>
