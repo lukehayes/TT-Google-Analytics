@@ -15,6 +15,7 @@ function tt_create_settings_page() {
     ?>
     <div class="wrap">
         <h1>Themetacular Google Analytics</h1>
+        <form method="post" action="options.php">
             <?php submit_button(); ?>
         </form>
     </div>
