@@ -10,8 +10,11 @@
  */
 
 //-- Constants
-// The root directory for the plugin
+// Root directory for the plugin
 define('TT_GA_PLUGIN_PATH', plugin_dir_path( __FILE__ )  );
+
+// Plugin include path
+define('TT_GA_INC_PATH', TT_GA_PLUGIN_PATH . '/includes' );
 
 // Assets directory for the plugin
 define('TT_GA_ASSETS_DIR', TT_GA_PLUGIN_PATH . '/assets');
