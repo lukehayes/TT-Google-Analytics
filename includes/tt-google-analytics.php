@@ -35,8 +35,7 @@ function tt_create_settings_page() {
                     <th scope="row">Google Analytics Code:</th>
                     <td>
 
-                        <textarea type="text"  class="widefat" style="height:120px !important;"  name="tt_ga_code" value=""><?php echo esc_attr( get_option('tt_ga_code') ); ?>
-                        </textarea>
+                        <textarea type="text"  class="widefat" style="height:120px !important;"  name="tt_ga_code" value=""><?php echo esc_attr( get_option('tt_ga_code') ); ?></textarea>
 
                         <span class="description">Add your Google Analytics code into the input box and then hit save! Alternatively, if you don't have one yet then you can get one <a href="https://analytics.google.com/analytics/web/">here.</a> </span>
                     </td>
