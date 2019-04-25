@@ -1,6 +1,6 @@
 ## Themetacular - Google Analytics
 
-A simple plugin for Themetacular Wordpress themes to easily add Google Analytics to your website.
+A simple plugin for Themetacular Wordpress themes to easily add Google Analytics to your Wordpress theme.
 
 ### Installation Steps
 * Clone the project into your themes wp-content/plugins directory, or download and install it from a zip using the 'Add New Plugin' option on your installation
