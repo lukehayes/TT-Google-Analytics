@@ -50,7 +50,6 @@ function tt_create_settings_page() {
 
 // Load the google analytics code into the footer of the theme
 function tt_load_google_analytics_footer() {
-	// TODO
+    echo get_option("tt_ga_code");
 }
-add_action('wp_footer', 'tt_load_google_analytics_footer');
-
+add_action('wp_footer', 'tt_load_google_analytics_footer', 1000);
