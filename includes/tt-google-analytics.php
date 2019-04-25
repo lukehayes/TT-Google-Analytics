@@ -6,9 +6,9 @@
 // Register form settings for the input fields
 function tt_register_form_settings() {
     register_setting( "tt_ga_form_setting", "tt_ga_code",[
-        'type' => 'string',
+        // 'type' => 'string',
         'description' => 'The Google Analytics Code',
-        'sanitize_callback' => 'sanitize_text_field'
+        // 'sanitize_callback' => 'sanitize_text_field'
     ]);
 }
 add_action("admin_init", "tt_register_form_settings");
