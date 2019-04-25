@@ -3,6 +3,12 @@
  * Themetacular Google Analytics
  */
 
+// Register form settings for the input fields
+function tt_register_form_settings() {
+    register_setting( "tt_ga_form_setting", "tt_ga_code");
+}
+add_action("admin_init", "tt_register_form_settings");
+
 // Register a new menu page
 function tt_register_menu_page() {
     // TODO
