@@ -1,7 +1,8 @@
 <?php
-/**
- * Themetacular Google Analytics
- */
+
+/* ---------------------------------------------------------------------------------------------
+   Themetacular Google Analytics
+   --------------------------------------------------------------------------------------------- */
 
 // Register form settings for the input fields
 function tt_register_form_settings() {
