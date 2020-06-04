@@ -11,22 +11,14 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-//-- Constants
+/*----------  Constants  ----------*/
+
 // Root directory for the plugin
 define('TT_GA_PLUGIN_PATH', plugin_dir_path( __FILE__ )  );
 
-// Plugin include path
-define('TT_GA_INC_PATH', TT_GA_PLUGIN_PATH . 'includes' );
 
-// Assets directory for the plugin
-define('TT_GA_ASSETS_DIR', TT_GA_PLUGIN_PATH . '/assets');
-
-// Styles directory for the plugin
-define('TT_GA_STYLES_DIR', TT_GA_ASSETS_DIR . '/styles');
-
-
-//-- File Includes
-include_once TT_GA_INC_PATH . '/tt-google-analytics.php';
+/*----------  File Includes  ----------*/
+include_once TT_GA_PLUGIN_PATH . '/includes/tt-google-analytics.php';
 
 // Include plugin css styles
-include_once TT_GA_INC_PATH . '/tt-styles.php';
+include_once TT_GA_PLUGIN_PATH . '/includes/tt-styles.php';
