@@ -9,6 +9,8 @@
  * License: GPL2
  */
 
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 //-- Constants
 // Root directory for the plugin
 define('TT_GA_PLUGIN_PATH', plugin_dir_path( __FILE__ )  );

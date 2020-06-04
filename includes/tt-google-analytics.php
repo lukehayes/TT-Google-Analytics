@@ -1,8 +1,10 @@
 <?php
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 /* ---------------------------------------------------------------------------------------------
    Themetacular Google Analytics
    --------------------------------------------------------------------------------------------- */
+
 
 
 /*----------  Register form settings for the input fields  ----------*/
