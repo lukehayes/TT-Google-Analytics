@@ -6,14 +6,15 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
    --------------------------------------------------------------------------------------------- */
 
 
-
 /*----------  Register form settings for the input fields  ----------*/
 
 function tt_register_form_settings() {
     register_setting( "tt_ga_form_setting", "tt_ga_code",[
         // 'type' => 'string',
         'description' => 'The Google Analytics Code',
-        // 'sanitize_callback' => 'sanitize_text_field'
+
+        // sanitize_text_field is built into Wordpress' API
+        'sanitize_callback' => 'sanitize_text_field'
     ]);
 }
 add_action("admin_init", "tt_register_form_settings");
@@ -54,7 +55,7 @@ function tt_create_settings_page() {
         </form>
     </div>
 <?php
-}
+} 
 
 
 /*----------  Load the Google Analytis code into the head (<HEAD>) of the theme page  ----------*/
