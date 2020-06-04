@@ -24,7 +24,8 @@ function tt_register_menu_page() {
 }
 add_action('admin_menu', 'tt_register_menu_page');
 
-// Crate a settings page for the plugin
+
+/*----------  Create a settings page for the plugin  ----------*/
 function tt_create_settings_page() {
     ?>
     <div class="wrap">
