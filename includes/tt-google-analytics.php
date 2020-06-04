@@ -4,7 +4,9 @@
    Themetacular Google Analytics
    --------------------------------------------------------------------------------------------- */
 
-// Register form settings for the input fields
+
+/*----------  Register form settings for the input fields  ----------*/
+
 function tt_register_form_settings() {
     register_setting( "tt_ga_form_setting", "tt_ga_code",[
         // 'type' => 'string',
@@ -14,7 +16,9 @@ function tt_register_form_settings() {
 }
 add_action("admin_init", "tt_register_form_settings");
 
-// Register a new menu page
+
+/*----------  Register a new menu page  ----------*/
+
 function tt_register_menu_page() {
     add_menu_page( "TT Google Analytics", "TT Google Analytics", "manage_options", "tt-google-analytics", "tt_create_settings_page", $icon_url = '', 30 );
 }
@@ -48,7 +52,9 @@ function tt_create_settings_page() {
 <?php
 }
 
-// Load the google analytics code into the head(<HEAD>) of the theme
+
+/*----------  Load the Google Analytis code into the head (<HEAD>) of the theme page  ----------*/
+
 function tt_load_google_analytics_footer() {
     echo get_option("tt_ga_code");
 }
