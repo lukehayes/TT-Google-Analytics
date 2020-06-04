@@ -48,8 +48,8 @@ function tt_create_settings_page() {
 <?php
 }
 
-// Load the google analytics code into the footer of the theme
+// Load the google analytics code into the head(<HEAD>) of the theme
 function tt_load_google_analytics_footer() {
     echo get_option("tt_ga_code");
 }
-add_action('wp_footer', 'tt_load_google_analytics_footer', 1000);
+add_action('wp_head', 'tt_load_google_analytics_footer', 10);
