@@ -16,7 +16,6 @@ add_action("admin_init", "tt_register_form_settings");
 
 // Register a new menu page
 function tt_register_menu_page() {
-    // TODO
     add_menu_page( "TT Google Analytics", "TT Google Analytics", "manage_options", "tt-google-analytics", "tt_create_settings_page", $icon_url = '', 30 );
 }
 add_action('admin_menu', 'tt_register_menu_page');
